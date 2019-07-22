@@ -1,0 +1,202 @@
+@import 'https://fonts.googleapis.com/css?family=Patua+One';
+@import 'https://fonts.googleapis.com/css?family=Roboto:400,500,700';
+@import 'https://fonts.googleapis.com/css?family=Product+Sans:400,400i,700,700i';
+html, body {
+  height: 100%;
+}
+
+.clock-outer {
+  height: 100vh;
+  background: url('../img/example-bg.jpg') no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  display: flex;
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+}
+
+.clock-inner {
+  background-color: rgba(255, 255, 255, 0.7);
+  padding: 20px;
+  text-align: center;
+  border-radius: 5px;
+}
+
+.maintenance-outer {
+  height: 100%;
+}
+
+.maintenance-inner {
+  height: 100vh;
+  display: table-cell;
+  vertical-align: middle;
+}
+
+.maintenance-announce {
+  font-family: 'Patua One', cursive;
+  font-size: 64px;
+  margin: 0 !important;
+}
+
+.fill {
+  width: 100%;
+  height: 100%;
+  background-position: center;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  background-size: cover;
+  -o-background-size: cover;
+}
+
+footer {
+  margin: 50px 0;
+}
+
+.navbar {
+  background-color: #fff;
+}
+
+.navbar-nav li a {
+  color: #1D598C;
+  background-color: #fff;
+  transition: background-color ease-in 0.5s;
+  font-family: 'Roboto', sans-serif;
+}
+
+.navbar-nav li a:hover {
+  background-color: #fff !important;
+}
+
+.dropdown-menu {
+  background-color: #fff !important;
+}
+
+.icon-bar {
+  background-color: #000 !important;
+}
+
+.page-footer {
+  background-color: #fff;
+  width: 100%;
+  margin: 0;
+}
+
+.footer-items li {
+  list-style-type: none;
+}
+
+.footer-items {
+  padding: 0 !important;
+}
+
+.align-right {
+  float: right !important;
+}
+
+@media all and (max-width: 768px) {
+  .clock {
+    zoom: 0.6;
+    -moz-transform: scale(0.6)
+  }
+}
+
+.title-thin {
+  font-size: 48px;
+  font-family: 'Product Sans', Arial, sans-serif;
+  font-weight: 700;
+}
+
+#ec {
+  margin-top: 75px;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.user-icon {
+  width: 175px;
+  margin-top: 20px;
+}
+
+.user-intro {
+  font-size: 16px;
+  margin-top: 20px;
+}
+
+.dir-img-cap {
+  font-size: 24px;
+}
+
+hr {
+  border-top: 1px solid #306FA6 !important;
+}
+
+.sponsor-img {
+  width: 150px;
+  margin-top: 20px;
+}
+
+.contact-info li h1, .contact-info li p {
+  color: #1D598C;
+  font-family: 'Roboto', sans-serif;
+}
+
+.countdown-announce {
+  font-family: 'Patua One', cursive;
+  font-size: 64px;
+  margin: 0 !important;
+}
+
+.page-footer {
+  margin-top: 30px;
+}
+
+.logo-footer {
+  width: 150px;
+}
+
+.contact-info {
+  font-size: 16px;
+}
+
+.gallery-preview {
+  width: 375px;
+}
+
+.dir-img-cap-cap {
+  font-size: 16px;
+}
+
+.event-caption {
+  font-size: 18px;
+}
+
+.img-responsive {
+  width: 600px;
+}
+
+@media (max-width: 768px) {
+  .img-responsive {
+    width: 80%;
+  }
+}
+
+.navbar-brand {
+  margin-top: -10px;
+}
+
+@media (max-width: 768px) {
+  .navbar-nav {
+    float: none !important;
+  }
+}
+
+.sponsor-text {
+  font-family: 'Product Sans', Arial, sans-serif;
+  font-weight: 700;
+  font-size: 48px;
+}
